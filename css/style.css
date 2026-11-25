@@ -5,7 +5,7 @@ a {text-decoration: none; color: inherit;}
 :root {--green:#2e7d32; --green-dark:#1b5e20; --dark:#1b3a1f; --light:#f5f7f2; --text:#333; --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.08); }
 body {font-family: sans-serif; color: var(--text); background-color: var(--light); line-height: 1.6; }
 h1, h2, h3 {color: var(--dark); line-height: 1.2;}
-h1 {font-size: 3rem;}
+h1 {font-size: 2.25rem;}
 h2 {font-size: 2rem;}
 .eyebrow {font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1rem; color: var(--green); font-weight: 700; }
 .btn {display: inline-block; background-color: var(--green); color: white; padding: 12px 24px; border-radius: 100px; font-weight: 600; transition: background 0.2s; }
@@ -13,13 +13,15 @@ h2 {font-size: 2rem;}
 .btn-ghost {display: inline-block; padding: 12px 24px; border-radius: 100px; font-weight: 600; transition: background 0.2s; border: 2px solid var(--green); color: var(--green); background: transparent;}
 .btn-ghost:hover {background-color: var(--green); color: white;}
 section {padding: 64px 20px; max-width: 1100px; margin: 0 auto;}
-header {display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; z-index: 10; position: sticky; background: rgba(255,255,255,0.85); backdrop-filter: blur(10px);}
+header {display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; z-index: 10; position: sticky; top: 0; background: rgba(255,255,255,0.85); backdrop-filter: blur(10px);}
 .logo {font-size: 1.4rem; font-weight: 800; color: var(--green);}
 nav ul {display: flex; gap: 24px; list-style: none; margin: 0; padding: 0;}
 header nav {display: none;}
 header .btn {display: none;}
+.burger {background: none; border: none; cursor: pointer; padding: 0; }
 .burger span {display: block; width: 24px; height: 2px; background: var(--dark); margin: 5px 0;}
-.hero {background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)) url('../images/landscape.jpg'); background-size: cover; background-position: center; min-height: 80vh; display: flex; align-items: center; max-width: none; color: white; }
+.hero {background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('../images/landscape.jpg'); background-size: cover; background-position: center; min-height: 80vh; display: flex; align-items: center; max-width: none; color: white; }
+.hero-buttons {display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px;}
 .hero-content {max-width: 700px; margin: 0 auto; width: 100%; }
 .hero h1 {color: white; }
 .hero .btn-ghost {border-color: white; color: white;}
