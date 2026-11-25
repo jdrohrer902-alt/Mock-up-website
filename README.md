@@ -1,2 +1,3 @@
 # Mock-up-website
 This is for Phantom Hackclub and personal experience building for other businesses.
+I want to run a business where I offer site-building to other businesses, but I'm not very good at building websites yet, running it is straitforward, no links are active right now so all that matters is index.html. It's still a work in progress. I made it in vscode following guides on the web such as w3 schools.
