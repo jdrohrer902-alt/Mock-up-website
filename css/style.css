@@ -2,7 +2,7 @@
 body {margin: 0;}
 img {max-width: 100%; display: block;}
 a {text-decoration: none; color: inherit;}
-:root {--green:#2e7d32; --green-dark:#1b5e20; --dark:#1b3a1f; --light:#f5f7f2; --text:#333; --radius:16px; --shadow:0 10px 30px rgba(0,0,,0,.08)}
+:root {--green:#2e7d32; --green-dark:#1b5e20; --dark:#1b3a1f; --light:#f5f7f2; --text:#333; --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.08); }
 body {font-family: sans-serif; color: var(--text); background-color: var(--light); line-height: 1.6; }
 h1, h2, h3 {color: var(--dark); line-height: 1.2;}
 h1 {font-size: 3rem;}
@@ -19,4 +19,8 @@ nav ul {display: flex; gap: 24px; list-style: none; margin: 0; padding: 0;}
 header nav {display: none;}
 header .btn {display: none;}
 .burger span {display: block; width: 24px; height: 2px; background: var(--dark); margin: 5px 0;}
-.hero {background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), }
+.hero {background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)) url('../images/landscape.jpg'); background-size: cover; background-position: center; min-height: 80vh; display: flex; align-items: center; max-width: none; color: white; }
+.hero-content {max-width: 700px; margin: 0 auto; width: 100%; }
+.hero h1 {color: white; }
+.hero .btn-ghost {border-color: white; color: white;}
+.hero-area {font-size: 0.9rem; opacity: 0.8; margin-top: 24px;}
