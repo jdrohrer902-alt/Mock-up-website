@@ -45,3 +45,9 @@ footer ul {justify-content: center; flex-wrap: wrap; margin: 16px 0;}
 .demo-note {font-size: 0.75rem; letter-spacing: 0.1em; opacity: 0.6;}
 @media (min-width: 768px) {header nav {display: block;} header .btn {display: inline-block;} .burger {display: none;} h1 {font-size: 3.5rem;} .trust-grid, .services-grid {grid-template-columns: repeat(2,1fr);} .gallery {grid-template-columns: repeat(3,1fr);}}
 @media (min-width: 1024px) {.trust-grid, .services-grid {grid-template-columns: repeat(4,1fr);}}
+nav a.active {color: var(--green); font-weight: 700;}
+.page-hero {text-align: center; padding: 80px 20px; background: var(--dark); color: white; max-width: none;}
+.page-hero h1 {color: white;}
+.page-hero .eyebrow {color: #a5d6a7;}
+.checklist {list-style: none; padding: 0;}
+.checklist li::before::before {content: '✔'; color: var(--green); font-weight: 700;}
